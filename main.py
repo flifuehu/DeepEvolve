@@ -116,7 +116,7 @@ def main():
     population = 30 # Number of networks/genomes in each generation.
     #we only need to train the new ones....
     
-    ds = 4
+    ds = 2
 
     if(   ds == 1):
         dataset = 'mnist_mlp'
